@@ -3,7 +3,7 @@
   height: 100vh;
   background: linear-gradient(to right, #e0f7fa, #e0f4fc); /* 부드러운 배경 */
 }
-
+// hihi
 .auth-left {
   flex: 1 1 50%;
   background: linear-gradient(to bottom, #0f2027, #203a43, #2c5364); /* 시원한 느낌의 다크 그라데이션 */
