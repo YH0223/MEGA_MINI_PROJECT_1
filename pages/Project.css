@@ -1,0 +1,170 @@
+.project-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.icon {
+  margin-right: 10px;
+  color: #007bff;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #333;
+}
+
+.quote-box {
+  text-align: center;
+  font-style: italic;
+  margin: 20px 0;
+  background-color: #e9ecef;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.notice-box {
+  margin: 20px 0;
+}
+
+.notice-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #007bff;
+  margin-bottom: 15px;
+}
+
+.project-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.project-table th, .project-table td {
+  padding: 12px;
+  text-align: left;
+}
+
+.project-table th {
+  background-color: #007bff;
+  color: white;
+}
+
+.checklist-section {
+  background-color: #ffffff;
+  padding: 20px;
+  margin: 30px 0;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.checklist-input {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.checklist-input input {
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  width: 100%;
+}
+
+.checklist-input button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.checklist-container {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.checklist-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.checkbox-label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.checkbox-label input {
+  margin: 0;
+  cursor: pointer;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #6c757d;
+}
+
+.project-actions {
+  margin-top: 40px;
+}
+
+.update-project-form {
+  display: grid;
+  gap: 15px;
+}
+
+.update-project-form label {
+  font-weight: 600;
+}
+
+.update-project-form input, .update-project-form select {
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.update-button, .delete-button {
+  padding: 12px 20px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.update-button {
+  background-color: #28a745;
+  color: white;
+}
+
+.delete-button {
+  background-color: #dc3545;
+  color: white;
+}
+
+.edit-button {
+  background-color: #28a745;
+  color: white;
+}

@@ -1,0 +1,250 @@
+.dashboard-container {
+  display: flex;
+  height: 100vh;
+  background-color: #f8f9fc;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+.sidebar h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  padding: 0.8rem 1rem;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  color: #333;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.sidebar ul li.active {
+  background-color: #e0f7fa;
+  color: #00796b;
+  font-weight: bold;
+}
+
+.sidebar ul li a:hover {
+  color: #28a745;
+}
+
+.sidebar-footer {
+  margin-top: auto;
+  text-align: center;
+}
+
+.upgrade-button {
+  padding: 0.6rem 1rem;
+  color: #fff;
+  background-color: #6200ea;
+  border: none;
+  border-radius: 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-bottom: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.upgrade-button:hover {
+  background-color: #3700b3;
+}
+
+.dashboard-main {
+  flex: 1;
+  padding: 2rem;
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.dashboard-header h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.stats-container {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.stats-card {
+  flex: 1;
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.stats-card h2 {
+  font-size: 1.2rem;
+  color: #666;
+}
+
+.stats-card p {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.percentage {
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+}
+
+.percentage.positive {
+  color: #388e3c;
+}
+
+.percentage.negative {
+  color: #d32f2f;
+}
+
+.table-container {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  
+}
+
+.table-container h3 {
+  margin-bottom: 1rem;
+}
+
+.Search {
+  display: flex; /* 플렉스박스를 사용하여 정렬 */
+  justify-content: space-between; /* 양쪽 끝에 요소 배치 */
+  align-items: center; /* 수직 정렬 */
+  margin-bottom: 1rem; /* 테이블과 간격 추가 */
+}
+
+.Search input {
+  padding: 0.8rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 250px; /* 입력 필드 너비 설정 */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th,
+table td {
+  padding: 1rem;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+table th {
+  color: #adadad;
+}
+
+.status-active {
+  color: #388e3c;
+  font-weight: bold;
+}
+
+.status-inactive {
+  color: #d32f2f;
+  font-weight: bold;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 1.5rem;
+}
+
+.pagination button {
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.pagination button:hover {
+  background-color: #6200ea;
+  color: #fff;
+}
+
+.sidebar-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: auto;
+  padding: 1rem;
+  background: linear-gradient(135deg, #c27fae, #5656d5); /* 배경 그라데이션 */
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.upgrade-button {
+  width: 100%;
+  padding: 0.8rem 1.5rem;
+  background-color: #fff;
+  color: #6c63ff; /* 버튼 글씨 색 */
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  margin-bottom: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.upgrade-button:hover {
+  background-color: #6c63ff;
+  color: #fff;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+  color: #fff;
+}
+
+.user-info img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.user-info p {
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.user-info span {
+  font-size: 0.9rem;
+  color: #aaa;
+}

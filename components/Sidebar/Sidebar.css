@@ -1,0 +1,38 @@
+.sidebar {
+    width: 200px !important;;
+    background-color: #fdfdfd !important;;
+    color: rgb(0, 0, 0) !important;
+    padding: 20px;
+    position: fixed; /* 고정 위치 */
+    top: 0;
+    left: 0;
+    z-index: 1; /* sidebar를 header보다 아래로 배치 */
+  }
+
+  .sidebar h3 {
+    margin-top: 0; 
+    margin-bottom: 10px;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    margin: 30px 0;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 4px; /* 버튼 모서리 둥글게 */
+  }
+  
+  .sidebar ul li:hover {
+    background-color: #9dcff7;
+    padding: 10px;
+    border-radius: 4px; /* 버튼 모서리 둥글게 */
+  }
+
+  .from-spark {
+    font-size: 0.3em;
+    color: gary;
+  }

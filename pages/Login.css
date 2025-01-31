@@ -1,0 +1,111 @@
+.auth-container {
+  display: flex;
+  height: 100vh;
+  background: linear-gradient(to right, #e0f7fa, #e0f4fc); /* 부드러운 배경 */
+}
+
+.auth-left {
+  flex: 1 1 50%;
+  background: linear-gradient(to bottom, #4facfe, #00f2fe); /* 더 세련된 그라데이션 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 5rem; /* 글자 크기 조정 */
+  font-family: "Poppins", sans-serif; /* 세련된 폰트 */
+  font-weight: 800; /* 더 굵게 */
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2); /* 텍스트 그림자 추가 */
+  letter-spacing: 2px; /* 글자 간격 조정 */
+}
+
+
+.auth-right {
+  flex: 1 1 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  background: white; /* 깨끗한 흰색 배경 */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* 가벼운 그림자 */
+  border-radius: 10px;
+}
+
+.auth-right h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #264653;
+  font-family: "Poppins", sans-serif;
+}
+
+.auth-right p {
+  margin-bottom: 2rem;
+  color: #555;
+  font-family: "Roboto", sans-serif; /* 직관적인 서체 */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+form input {
+  margin-bottom: 1rem;
+  padding: 0.8rem;
+  font-size: 1rem;
+  border: 1px solid #bbb;
+  border-radius: 5px;
+  transition: border 0.3s ease, box-shadow 0.3s ease;
+}
+
+form input:focus {
+  border: 1px solid #2a9d8f;
+  box-shadow: 0 0 5px rgba(42, 157, 143, 0.5);
+  outline: none;
+}
+
+form button {
+  padding: 0.8rem;
+  font-size: 1rem;
+  color: white;
+  background-color: #2a9d8f;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+form button:hover {
+  background-color: #264653;
+  transform: translateY(-2px); /* 버튼 클릭 시 약간 떠오르는 효과 */
+}
+
+a {
+  margin-top: 1rem;
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #0056b3;
+}
+
+.register-button {
+  background-color: #e76f51;
+  color: white;
+  border: none;
+  padding: 0.6rem 2rem;
+  border-radius: 30px;
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+  margin-top: 1rem;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.register-button:hover {
+  background-color: #f4a261;
+  transform: scale(1.05); /* 살짝 커지는 애니메이션 */
+}
